@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "LogWell",
-    "slug": "LogWell",
-    "scheme": "logwell",
+    "name": "YourAppName",
+    "slug": "YourAppSlug",
+    "scheme": "yourscheme",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jeremiahpicks.logger",
+      "bundleIdentifier": "com.yourcompany.yourapp",
       "infoPlist": {
-        "NSUserTrackingUsageDescription": "This allows us to show you relevant ads. You can change this anytime in Settings.",
+        "NSUserTrackingUsageDescription": "This allows us to show you relevant ads.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.jeremiahpicks.logger",
+      "package": "com.yourcompany.yourapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -39,23 +39,22 @@
       [
         "react-native-google-mobile-ads",
         {
-          "_androidAppId_disabled": "ca-app-pub-3080964120098415~8407111508",
-          "iosAppId": "ca-app-pub-3080964120098415~8407111508"
+          "iosAppId": "ca-app-pub-XXXXXXXXXX~XXXXXXXXXX"
         }
       ],
       "expo-tracking-transparency",
       [
         "@kingstinct/react-native-healthkit",
         {
-          "NSHealthShareUsageDescription": "LogWell needs access to your health data to log and track your health metrics.",
-          "NSHealthUpdateUsageDescription": "LogWell needs permission to save health data to help you track your progress."
+          "NSHealthShareUsageDescription": "App needs access to your health data.",
+          "NSHealthUpdateUsageDescription": "App needs permission to save health data."
         }
       ]
     ],
-    "owner": "jeremiahtoribio",
+    "owner": "your-expo-username",
     "extra": {
       "eas": {
-        "projectId": "8b26873e-01fa-485b-be50-fac7df4cf24e"
+        "projectId": "your-eas-project-id"
       }
     }
   }

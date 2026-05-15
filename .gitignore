@@ -35,9 +35,15 @@ yarn-error.*
 .env.*
 !.env.example
 
-# files containing API keys / secrets
+# build config / secrets
 eas.json
+app.json
+app.config.js
 tmpclaude-*
+
+# native secrets
+google-services.json
+GoogleService-Info.plist
 
 # typescript
 *.tsbuildinfo
